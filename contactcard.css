@@ -11,17 +11,16 @@ div{
 
 #box1{
     background-color: #322A26;
-    width: 50%;
+    width: 45%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 150%;
-    
+    font-size: 150px;
 }
 
 #box2{
     align-content: center;
     padding: 0%;
     border: none;
-    font-size: 70%;
+    font-size: 60%;
 }
 
 .face{
@@ -29,12 +28,16 @@ div{
 }
 
 #box3{
+    display: flex;
     border: none;
     background-color: #322A26;
-    align-items: center; 
-    display: block;
-    display: flex;
-    align-items: center;
     margin: auto;
-    width: 25%;
+    width: 70%;
+}
+
+.icon{
+width: 70%;
+padding: 5%;
+border: none;
+filter: grayscale(100);
 }
